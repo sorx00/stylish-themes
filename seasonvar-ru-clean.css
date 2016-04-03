@@ -1,0 +1,85 @@
+@-moz-document domain("seasonvar.ru") {
+  
+  /**
+   * Hide adv
+   */
+  body {
+    padding-top: 0 !important;
+    background: none;
+    /* Light background */
+    /*background-color: rgb(232,232,232);*/
+    /* Dark background */
+    background-color: rgb(48,48,48);
+  }
+  
+  .main-center-block {
+    /*background-color: rgb(232,232,232);*/
+    background-color: rgb(48,48,48);
+  }
+  
+  /* Hide background image */
+  body > noindex {
+    display: none;
+  }
+  
+  .td-for-content .full-news ~ div[align="center"] {
+    display: none;
+  }
+
+  
+  /**
+   * Resize width to 1200px
+   */
+  .main-center-block {
+    width: 1200px;
+  }
+  
+  .head-block > table {
+    width: 1200px;
+  }
+  .head-block > table td.headtbl {
+    width: 900px;
+  }
+  
+  .content-center,
+  .content-center2 {
+    background: none;
+    background-color: rgb(232,232,232);
+    margin-left: 20px;
+  }
+  
+  .content-center .content-top,
+  .content-center2 .content-top2 {
+    background-size: 1204px 54px;
+    background-position: left -24px top 0;
+    padding-left: 0;
+  }
+  
+  .content-top .main-table .td-for-left-block .alf-block .alf-letter {
+    left: -26px;
+  }
+  .content-top .main-table .td-for-left-block .alf-block .alf-letter span {
+    display: inline-block;
+    width: 21px;
+    text-align: center;
+    font-size: 0.9em;
+    padding-left: 0px;
+  }
+  
+  #selectGenres {
+   padding-top: 14px;
+  }
+  
+  .content-top .main-table .film-list-block {
+    width: 660px;
+  }
+  
+  .content-top .main-table .td-for-right-block .right-news-block {
+    margin-top: 14px;
+  }
+  
+  .footer {
+    width: 1200px;
+  }
+  
+}
